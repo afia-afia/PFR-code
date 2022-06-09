@@ -1,0 +1,106 @@
+Generating detailed summary of the adapter, it may take a while to complete.
+
+Controller = 0
+Status = Success
+Description = None
+
+Product Name = PERC H730 Adapter
+Serial Number = 8BF01VJ
+SAS Address =  54cd98f03e5c4300
+PCI Address = 00:03:00:00
+System Time = 08/01/2019 13:06:00
+Mfg. Date = 11/17/18
+Controller Time = 08/01/2019 11:05:56
+FW Package Build = 25.5.5.0005
+BIOS Version = 6.33.01.0_4.16.07.00_0x06120304
+FW Version = 4.290.00-8334
+Driver Name = megaraid_sas
+Driver Version = 06.810.09.00-rc1
+Current Personality = RAID-Mode
+Vendor Id = 0x1000
+Device Id = 0x5D
+SubVendor Id = 0x1028
+SubDevice Id = 0x1F43
+Host Interface = PCI-E
+Device Interface = SAS-12G
+Bus Number = 3
+Device Number = 0
+Function Number = 0
+Drive Groups = 2
+
+TOPOLOGY :
+========
+
+-----------------------------------------------------------------------------
+DG Arr Row EID:Slot DID Type  State BT       Size PDC  PI SED DS3  FSpace TR
+-----------------------------------------------------------------------------
+ 0 -   -   -        -   RAID1 Optl  N  446.625 GB dflt N  N   dflt N      N
+ 0 0   -   -        -   RAID1 Optl  N  446.625 GB dflt N  N   dflt N      N
+ 0 0   0   32:0     0   DRIVE Onln  N  446.625 GB dflt N  N   dflt -      N
+ 0 0   1   32:1     1   DRIVE Onln  N  446.625 GB dflt N  N   dflt -      N
+ 1 -   -   -        -   RAID5 Optl  N    3.491 TB dflt N  N   dflt N      N
+ 1 0   -   -        -   RAID5 Optl  N    3.491 TB dflt N  N   dflt N      N
+ 1 0   0   32:2     2   DRIVE Onln  N    1.745 TB dflt N  N   dflt -      N
+ 1 0   1   32:3     3   DRIVE Onln  N    1.745 TB dflt N  N   dflt -      N
+ 1 0   2   32:4     4   DRIVE Onln  N    1.745 TB dflt N  N   dflt -      N
+-----------------------------------------------------------------------------
+
+DG=Disk Group Index|Arr=Array Index|Row=Row Index|EID=Enclosure Device ID
+DID=Device ID|Type=Drive Type|Onln=Online|Rbld=Rebuild|Dgrd=Degraded
+Pdgd=Partially degraded|Offln=Offline|BT=Background Task Active
+PDC=PD Cache|PI=Protection Info|SED=Self Encrypting Drive|Frgn=Foreign
+DS3=Dimmer Switch 3|dflt=Default|Msng=Missing|FSpace=Free Space Present
+TR=Transport Ready
+
+Virtual Drives = 2
+
+VD LIST :
+=======
+
+---------------------------------------------------------------
+DG/VD TYPE  State Access Consist Cache Cac sCC       Size Name
+---------------------------------------------------------------
+0/0   RAID1 Optl  RW     Yes     RWBD  -   OFF 446.625 GB
+1/1   RAID5 Optl  RW     Yes     RWBD  -   OFF   3.491 TB
+---------------------------------------------------------------
+
+Cac=CacheCade|Rec=Recovery|OfLn=OffLine|Pdgd=Partially Degraded|Dgrd=Degraded
+Optl=Optimal|RO=Read Only|RW=Read Write|HD=Hidden|TRANS=TransportReady|B=Blocked|
+Consist=Consistent|R=Read Ahead Always|NR=No Read Ahead|WB=WriteBack|
+FWB=Force WriteBack|WT=WriteThrough|C=Cached IO|D=Direct IO|sCC=Scheduled
+Check Consistency
+
+Physical Drives = 5
+
+PD LIST :
+=======
+
+------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model           Sp
+------------------------------------------------------------------------
+32:0      0 Onln   0 446.625 GB SATA SSD N   N  512B MZ7KM480HMHQ0D3 U
+32:1      1 Onln   0 446.625 GB SATA SSD N   N  512B MZ7KM480HMHQ0D3 U
+32:2      2 Onln   1   1.745 TB SATA SSD N   N  512B SSDSC2KG019T7R  U
+32:3      3 Onln   1   1.745 TB SATA SSD N   N  512B SSDSC2KG019T7R  U
+32:4      4 Onln   1   1.745 TB SATA SSD N   N  512B SSDSC2KG019T7R  U
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No.|DID-Device ID|DG-DriveGroup
+DHS-Dedicated Hot Spare|UGood-Unconfigured Good|GHS-Global Hotspare
+UBad-Unconfigured Bad|Onln-Online|Offln-Offline|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down/PowerSave|T-Transition|F-Foreign
+UGUnsp-Unsupported|UGShld-UnConfigured shielded|HSPShld-Hotspare shielded
+CFShld-Configured shielded|Cpybck-CopyBack|CBShld-Copyback Shielded
+
+
+BBU_Info :
+========
+
+----------------------------------------------
+Model State   RetentionTime Temp Mode MfgDate
+----------------------------------------------
+BBU   Optimal 0 hour(s)     47C  -    0/00/00
+----------------------------------------------
+
+

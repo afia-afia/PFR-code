@@ -1,0 +1,11 @@
+- plugin: App\Plugins\Writable
+  params:
+  - bootstrap/cache
+- plugin: App\Plugins\Shared
+  params:
+  - storage
+- plugin: App\Plugins\Exec
+  params:
+  - composer install
+  - cp ../../env.prod .env
+  - php artisan migrate --force

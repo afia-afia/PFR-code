@@ -1,0 +1,7 @@
+Device /dev/hidraw1 : 413d:2107 interface 1 : (null) (null) 
+
+Writing data (9 bytes): 
+00 01 80 33 01 00 00 00 00 
+
+Response from device (8 bytes):
+80 80 09 47 4e 20 00 00

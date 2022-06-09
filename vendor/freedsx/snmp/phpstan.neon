@@ -1,0 +1,11 @@
+parameters:
+    checkMissingIterableValueType: false
+    treatPhpDocTypesAsCertain: false
+    checkGenericClassInNonGenericObjectType: false
+    level: max
+    paths:
+        - %currentWorkingDirectory%/src
+    ignoreErrors:
+        - '#Unsafe usage of new static\(\).#'
+        - '#function call_user_func expects callable\(\)\: mixed#'
+    reportUnmatchedIgnoredErrors: false

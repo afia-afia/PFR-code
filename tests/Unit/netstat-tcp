@@ -1,0 +1,16 @@
+tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      -
+tcp        0      0 127.0.0.1:5939          0.0.0.0:*               LISTEN      -
+tcp        0      0 127.0.1.1:53            0.0.0.0:*               LISTEN      -
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      -
+tcp        0      0 127.0.0.1:1024          0.0.0.0:*               LISTEN      31933/cloud-backup-
+tcp        0      0 127.0.0.1:1025          0.0.0.0:*               LISTEN      31943/cloud-backup-
+tcp        0      0 127.0.0.1:1026          0.0.0.0:*               LISTEN      31961/cloud-backup-
+tcp        0      0 127.0.0.1:18083         0.0.0.0:*               LISTEN      1384/vboxwebsrv
+tcp        0      0 127.0.0.1:27017         0.0.0.0:*               LISTEN      -
+tcp        0      0 127.0.0.1:20201         0.0.0.0:*               LISTEN      -
+tcp        0      0 127.0.0.1:20202         0.0.0.0:*               LISTEN      -
+tcp        0      0 127.0.0.1:11211         0.0.0.0:*               LISTEN      -
+tcp6       0      0 :::111                  :::*                    LISTEN      -
+tcp6       0      0 :::80                   :::*                    LISTEN      -
+tcp6       0      0 ::1:631                 :::*                    LISTEN      -
+tcp6       0      0 ::1:37345               :::*                    LISTEN      10284/java  

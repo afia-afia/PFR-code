@@ -1,0 +1,39 @@
+# dmidecode 3.0
+Getting SMBIOS data from sysfs.
+SMBIOS 3.0.0 present.
+
+Handle 0x000C, DMI type 1, 27 bytes
+System Information
+	Manufacturer: LENOVO
+	Product Name: 20J60018MB
+	Version: ThinkPad T470p
+	Serial Number: PF0QHUR3
+	UUID: 74F7C34C-2924-11B2-A85C-DC427DCA7109
+	Wake-up Type: Power Switch
+	SKU Number: LENOVO_MT_20J6_BU_Think_FM_ThinkPad T470p
+	Family: ThinkPad T470p
+
+Handle 0x0023, DMI type 12, 5 bytes
+System Configuration Options
+
+Handle 0x002F, DMI type 15, 31 bytes
+System Event Log
+	Area Length: 66 bytes
+	Header Start Offset: 0x0000
+	Header Length: 16 bytes
+	Data Start Offset: 0x0010
+	Access Method: General-purpose non-volatile data functions
+	Access Address: 0x00F0
+	Status: Valid, Not Full
+	Change Token: 0x00000003
+	Header Format: Type 1
+	Supported Log Type Descriptors: 4
+	Descriptor 1: POST error
+	Data Format 1: POST results bitmap
+	Descriptor 2: PCI system error
+	Data Format 2: None
+	Descriptor 3: System reconfigured
+	Data Format 3: None
+	Descriptor 4: Log area reset/cleared
+	Data Format 4: None
+
